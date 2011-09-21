@@ -41,8 +41,8 @@ projects[backup_migrate_files] = 1.x-dev
 ;;; Settings as code ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[] = ctools
-projects[] = features
-projects[] = strongarm
+; projects[] = features
+; projects[] = strongarm
 
 
 ;;; Wysiwyg and image handling ;;;;;;;;;;;;;;;;;;
