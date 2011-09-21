@@ -1,0 +1,51 @@
+;;; Profiler config ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; by Milk Miruku ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+name = Miruku Base
+core = 7.x
+theme = squaregrid
+
+; Basics
+
+variables[site_name] = Miruku Base
+variables[site_mail] = testing@localhost
+
+; Theme
+
+; variables[theme_fusion_miruku_settings][toggle_logo] = 0
+
+; Core
+
+dependencies[] = path
+dependencies[] = search
+dependencies[] = syslog
+dependencies[] = help
+
+dependencies[] = number
+dependencies[] = list
+dependencies[] = image
+
+; Contrib
+
+dependencies[] = field_group
+dependencies[] = field_permissions
+
+dependencies[] = features
+dependencies[] = strongarm
+
+dependencies[] = admin_menu
+dependencies[] = skinr
+dependencies[] = devel
+
+dependencies[] = devel_themer
+; breaks on drush make as devel db table isn't there?
+
+dependencies[] = admin_menu
+dependencies[] = module_filter
+
+dependencies[] = backup_migrate
+dependencies[] = backup_migrate_files
+
+; Features
+
+; dependencies[] = miruku_wysiwyg_img_basic
