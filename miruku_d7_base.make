@@ -6,4 +6,7 @@ api = 2
 
 ; Core version. Aegir doesn't like just projects[] = "drupal" for some reason.
 core = 7.x
-projects[drupal][type] = core
+
+projects[] = drupal
+
+;projects[drupal][type] = core
