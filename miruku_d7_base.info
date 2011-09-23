@@ -27,24 +27,24 @@ dependencies[] = image
 
 ; Contrib
 
-dependencies[] = field_group
-dependencies[] = field_permissions
+;dependencies[] = field_group
+;dependencies[] = field_permissions
 
-dependencies[] = features
-dependencies[] = strongarm
+;dependencies[] = features
+;dependencies[] = strongarm
 
-dependencies[] = admin_menu
-dependencies[] = skinr
-dependencies[] = devel
+;dependencies[] = admin_menu
+;dependencies[] = skinr
+;dependencies[] = devel
 
-dependencies[] = devel_themer
+;dependencies[] = devel_themer
 ; breaks on drush make as devel db table isn't there?
 
-dependencies[] = admin_menu
-dependencies[] = module_filter
+;dependencies[] = admin_menu
+;dependencies[] = module_filter
 
-dependencies[] = backup_migrate
-dependencies[] = backup_migrate_files
+;dependencies[] = backup_migrate
+;dependencies[] = backup_migrate_files
 
 ; Features
 
