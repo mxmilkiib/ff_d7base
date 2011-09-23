@@ -8,3 +8,10 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
+
+
+; Profiler simplifies Profiles with the .info
+libraries[profiler][download][type] = get
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
+libraries[profiler][destination] = libraries
+
