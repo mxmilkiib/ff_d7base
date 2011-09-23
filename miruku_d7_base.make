@@ -12,7 +12,7 @@ projects[drupal][type] = core
 
 ;;; General ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-projects[] = field_permissions
+;projects[] = field_permissions
 projects[] = field_group
 projects[] = views
 
@@ -41,19 +41,19 @@ projects[backup_migrate_files] = 1.x-dev
 ;;; Settings as code ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[] = ctools
-; projects[] = features
-; projects[] = strongarm
+projects[] = features
+projects[] = strongarm
 
 
 ;;; Wysiwyg and image handling ;;;;;;;;;;;;;;;;;;
 
 projects[wysiwyg][type] = module
 
-projects[] = imageapi
-projects[] = transliteration
+;projects[] = imageapi
+;projects[] = transliteration
 
-projects[] = image_resize_filter
-projects[] = fancybox
+;projects[] = image_resize_filter
+;projects[] = fancybox
 
 projects[jquery_update] = 2.x-dev
 
