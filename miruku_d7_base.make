@@ -12,15 +12,13 @@ projects[drupal][type] = core
 
 ;;; General ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;projects[] = field_permissions
-projects[] = field_group
 projects[] = views
+projects[] = ctools
 
 
 ;;; Admistration ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[] = admin_menu
-projects[] = module_filter
 
 
 ;;; Development ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -28,19 +26,13 @@ projects[] = module_filter
 projects[] = devel
 projects[] = devel_themer
 projects[] = drupalforfirebug
-projects[] = skinr
 
 projects[] = backup_migrate
 projects[backup_migrate_files] = 1.x-dev
 
 
-;;; Security ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-
-
 ;;; Settings as code ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-projects[] = ctools
 projects[] = features
 projects[] = strongarm
 
@@ -49,16 +41,7 @@ projects[] = strongarm
 
 projects[wysiwyg][type] = module
 
-;projects[] = imageapi
-;projects[] = transliteration
-
-;projects[] = image_resize_filter
-;projects[] = fancybox
-
 projects[jquery_update] = 2.x-dev
-
-; projects[] = filefield
-; projects[] = imagefield
 
 ; projects[miruku_wysiwyg_img_basic][type] = module
 ; projects[miruku_wysiwyg_img_basic][download][type] = git
@@ -92,6 +75,6 @@ libraries[tinymce][download][url] = https://github.com/downloads/tinymce/tinymce
 libraries[tinymce][destination] = libraries
 
 ; Fancybox is the image popup display system
-libraries[fancybox][download][type] = get
-libraries[fancybox][download][url] = http://fancybox.googlecode.com/files/jquery.fancybox-1.3.4.zip
-libraries[fancybox][destination] = libraries
+;libraries[fancybox][download][type] = get
+;libraries[fancybox][download][url] = http://fancybox.googlecode.com/files/jquery.fancybox-1.3.4.zip
+;libraries[fancybox][destination] = libraries
