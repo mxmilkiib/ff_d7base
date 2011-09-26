@@ -15,10 +15,14 @@ projects[drupal][type] = core
 projects[] = views
 projects[] = ctools
 
+projects[] = pathauto
+projects[] = token
+
 
 ;;; Admistration ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[] = admin_menu
+projects[] = module_filter
 
 
 ;;; Development ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

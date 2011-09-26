@@ -12,7 +12,7 @@ variables[site_mail] = testing@localhost
 
 ; Theme
 
-; variables[go][here] = 0
+variables[admin_theme] = seven
 
 
 ; Core
@@ -29,12 +29,18 @@ dependencies[] = features
 dependencies[] = strongarm
 
 dependencies[] = admin_menu
+dependencies[] = admin_devel
+
 dependencies[] = devel
-
 ;dependencies[] = devel_themer
-; breaks on drush make as devel db table isn't there?
+; breaks on initial drush make as devel db table isn't there?
 
-dependencies[] = module_filter
+
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = page_manager
+
+;dependencies[] = module_filter
 
 ;dependencies[] = backup_migrate
 ;dependencies[] = backup_migrate_files
