@@ -3,7 +3,7 @@
 
 name = Miruku Base
 core = 7.x
-theme = squaregrid
+theme = miruku_theme
 
 ; Basics
 
