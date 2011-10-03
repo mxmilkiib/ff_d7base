@@ -21,6 +21,8 @@ dependencies[] = path
 dependencies[] = search
 dependencies[] = syslog
 dependencies[] = help
+dependencies[] = block
+dependencies[] = menu
 
 
 ; Contrib
