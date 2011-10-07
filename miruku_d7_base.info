@@ -48,6 +48,11 @@ dependencies[] = module_filter
 ;dependencies[] = backup_migrate
 ;dependencies[] = backup_migrate_files
 
+;;; Theming
+
+dependencies[] = fontyourface
+dependencies[] = block_class
+
 ; Features
 
 ;dependencies[] = miruku_wysiwyg_img_basic

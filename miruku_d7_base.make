@@ -41,6 +41,11 @@ projects[] = features
 projects[] = strongarm
 
 
+;;; Theming
+
+projects[] = fontyourface
+projects[] = block_class
+
 ;;; Wysiwyg and image handling ;;;;;;;;;;;;;;;;;;
 
 projects[wysiwyg][type] = module
