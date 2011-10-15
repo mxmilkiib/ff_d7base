@@ -10,7 +10,7 @@ core = 7.x
 projects[drupal][type] = core
 
 
-;;; General ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; General
 
 projects[] = views
 projects[] = ctools
@@ -19,13 +19,13 @@ projects[] = pathauto
 projects[] = token
 
 
-;;; Admistration ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Admistration
 
 projects[] = admin_menu
 projects[] = module_filter
 
 
-;;; Development ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Development
 
 projects[] = devel
 projects[] = devel_themer
@@ -35,7 +35,7 @@ projects[] = backup_migrate
 projects[backup_migrate_files] = 1.x-dev
 
 
-;;; Settings as code ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Settings as code
 
 projects[] = features
 projects[] = strongarm
@@ -46,7 +46,8 @@ projects[] = strongarm
 projects[] = fontyourface
 projects[] = block_class
 
-;;; Wysiwyg and image handling ;;;;;;;;;;;;;;;;;;
+
+;;; Wysiwyg and image handling
 
 projects[wysiwyg][type] = module
 
@@ -57,21 +58,21 @@ projects[jquery_update] = 2.x-dev
 ; projects[miruku_wysiwyg_img_basic][download][url] = file:///var/aegir/projects/miruku_features/miruku_wysiwyg_img_basic
 
 
-;;; Theme ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Theme
 
 projects[miruku_theme][type] = theme
 projects[miruku_theme][download][type] = git
 projects[miruku_theme][download][url] = theme_git_location
 
 
-;;; Profile and .make ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Profile and .make
 
 projects[miruku_profile_base][type] = profile
 projects[miruku_profile_base][download][type] = git
 projects[miruku_profile_base][download][url] = profile_git_location
 
 
-;;; Libraries ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Libraries
 
 ; Profiler simplifies Profiles with the .info
 libraries[profiler][download][type] = get

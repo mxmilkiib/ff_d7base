@@ -34,7 +34,7 @@ dependencies[] = admin_menu
 dependencies[] = admin_devel
 
 dependencies[] = devel
-;dependencies[] = devel_themer
+dependencies[] = devel_themer
 ; breaks on initial drush make as devel db table isn't there?
 
 dependencies[] = views
