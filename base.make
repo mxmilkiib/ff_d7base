@@ -9,6 +9,7 @@ core = 7.x
 
 projects[drupal][type] = core
 
+;;; Theme is set in .info via Profiler library
 
 ;;; General
 
@@ -24,6 +25,7 @@ projects[] = token
 projects[] = admin_menu
 projects[] = module_filter
 projects[] = views_bulk_operations
+
 
 ;;; Development
 
@@ -50,19 +52,7 @@ projects[] = block_class
 ;;; Wysiwyg and image handling
 
 projects[wysiwyg][type] = module
-
 projects[jquery_update] = 2.x-dev
-
-; projects[miruku_wysiwyg_img_basic][type] = module
-; projects[miruku_wysiwyg_img_basic][download][type] = git
-; projects[miruku_wysiwyg_img_basic][download][url] = file:///var/aegir/projects/miruku_features/miruku_wysiwyg_img_basic
-
-
-;;; Theme (comes in profile now)
-
-; projects[base_theme][type] = theme
-; projects[base_theme][download][type] = git
-; projects[base_theme][download][url] = theme_git_location
 
 
 ;;; Profile and .make
