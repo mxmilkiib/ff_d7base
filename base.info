@@ -3,7 +3,7 @@
 
 name = Base
 core = 7.x
-theme =base_theme
+theme = base_theme
 
 ; Basics
 
