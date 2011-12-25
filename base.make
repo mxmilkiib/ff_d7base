@@ -1,4 +1,4 @@
-;;; miruku_base.make ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; base.make ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; by Milk Miruku ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Drush Make API version
@@ -23,7 +23,7 @@ projects[] = token
 
 projects[] = admin_menu
 projects[] = module_filter
-
+projects[] = views_bulk_operations
 
 ;;; Development
 
@@ -58,18 +58,18 @@ projects[jquery_update] = 2.x-dev
 ; projects[miruku_wysiwyg_img_basic][download][url] = file:///var/aegir/projects/miruku_features/miruku_wysiwyg_img_basic
 
 
-;;; Theme
+;;; Theme (comes in profile now)
 
-projects[miruku_theme][type] = theme
-projects[miruku_theme][download][type] = git
-projects[miruku_theme][download][url] = theme_git_location
+; projects[base_theme][type] = theme
+; projects[base_theme][download][type] = git
+; projects[base_theme][download][url] = theme_git_location
 
 
 ;;; Profile and .make
 
-projects[miruku_profile_base][type] = profile
-projects[miruku_profile_base][download][type] = git
-projects[miruku_profile_base][download][url] = profile_git_location
+projects[profile_base][type] = profile
+projects[profile_base][download][type] = git
+projects[profile_base][download][url] = profile_git_location
 
 
 ;;; Libraries

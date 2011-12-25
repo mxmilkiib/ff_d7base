@@ -1,13 +1,13 @@
 ;;; Profiler config ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; by Milk Miruku ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-name = Miruku Base
+name = Base
 core = 7.x
-theme = miruku_theme
+theme =base_theme
 
 ; Basics
 
-variables[site_name] = Miruku Base
+variables[site_name] = Base
 variables[site_mail] = testing@localhost
 
 ; Theme
@@ -37,9 +37,13 @@ dependencies[] = devel
 dependencies[] = devel_themer
 ; breaks on initial drush make as devel db table isn't there?
 
+dependencies[] = field_ui
+
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = page_manager
+
+dependencies[] = views_bulk_operations 
 
 dependencies[] = pathauto
 
@@ -55,4 +59,3 @@ dependencies[] = block_class
 
 ; Features
 
-;dependencies[] = miruku_wysiwyg_img_basic
