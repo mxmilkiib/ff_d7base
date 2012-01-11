@@ -5,28 +5,27 @@ name = Base
 core = 7.x
 theme = base_theme
 
-; Basics
 
+; Basics
 variables[site_name] = Base
 variables[site_mail] = testing@localhost
 
-; Theme
 
+; Theme
 variables[admin_theme] = seven
 
 
 ; Core
-
 dependencies[] = path
 dependencies[] = search
 dependencies[] = syslog
 dependencies[] = help
 dependencies[] = block
 dependencies[] = menu
+dependencies[] = contextual
 
 
 ; Contrib
-
 dependencies[] = features
 dependencies[] = strongarm
 
@@ -49,13 +48,13 @@ dependencies[] = pathauto
 
 dependencies[] = module_filter
 
-;dependencies[] = backup_migrate
-;dependencies[] = backup_migrate_files
+dependencies[] = backup_migrate
+dependencies[] = backup_migrate_files
 
-;;; Theming
 
+; Theming
 dependencies[] = fontyourface
 dependencies[] = block_class
+dependencies[] = wysiwyg
 
 ; Features
-
