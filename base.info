@@ -42,7 +42,7 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = page_manager
 
-dependencies[] = views_bulk_operations 
+dependencies[] = views_bulk_operations
 
 dependencies[] = pathauto
 
@@ -54,6 +54,7 @@ dependencies[] = backup_migrate_files
 
 ; Theming
 dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
 dependencies[] = block_class
 dependencies[] = wysiwyg
 
