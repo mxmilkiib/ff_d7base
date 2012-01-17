@@ -18,6 +18,7 @@ projects[] = ctools
 
 projects[] = pathauto
 projects[] = token
+projects[] = entity
 
 
 ;;; Admistration
