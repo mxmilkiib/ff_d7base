@@ -19,26 +19,33 @@ variables[admin_theme] = seven
 dependencies[] = path
 dependencies[] = search
 dependencies[] = syslog
+dependencies[] = dblog
 dependencies[] = help
 dependencies[] = block
 dependencies[] = menu
 dependencies[] = contextual
 
+dependencies[] = field_ui
 
-; Contrib
+; Exportables
+
 dependencies[] = features
 dependencies[] = strongarm
+
+
+; Development
 
 dependencies[] = admin_menu
 dependencies[] = admin_devel
 
 dependencies[] = devel
 dependencies[] = devel_themer
-; breaks on initial drush make as devel db table isn't there?
+dependencies[] = journal
 
 dependencies[] = field_ui
 
 dependencies[] = views
+dependencies[] = views_content
 dependencies[] = views_ui
 dependencies[] = page_manager
 
@@ -51,11 +58,15 @@ dependencies[] = module_filter
 dependencies[] = backup_migrate
 dependencies[] = backup_migrate_files
 
+; Security
+
+dependencies[] = honeypot
 
 ; Theming
 dependencies[] = fontyourface
 dependencies[] = fontyourface_ui
 dependencies[] = block_class
 dependencies[] = wysiwyg
+dependencies[] = semanticviews
 
 ; Features

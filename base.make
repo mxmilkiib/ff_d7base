@@ -24,7 +24,7 @@ projects[] = entity
 ;;; Admistration
 
 projects[] = admin_menu
-projects[] = module_filter
+;projects[] = module_filter - trying without again..
 projects[] = views_bulk_operations
 
 
@@ -37,6 +37,7 @@ projects[] = drupalforfirebug
 projects[] = backup_migrate
 projects[backup_migrate_files] = 1.x-dev
 
+projects[] = journal
 
 ;;; Settings as code
 
@@ -48,7 +49,12 @@ projects[] = strongarm
 
 projects[] = fontyourface
 projects[] = block_class
+projects[] = compact_forms
+projects[] = semanticviews
 
+;;; Security
+
+projects[] = honeypot
 
 ;;; Wysiwyg and image handling
 
