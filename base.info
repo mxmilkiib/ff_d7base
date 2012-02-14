@@ -53,7 +53,7 @@ dependencies[] = views_bulk_operations
 
 dependencies[] = pathauto
 
-dependencies[] = module_filter
+;dependencies[] = module_filter
 
 dependencies[] = backup_migrate
 dependencies[] = backup_migrate_files
